@@ -1,0 +1,114 @@
+.woocommerce-account h2{
+    margin: 0 0 30px 0;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 22px;
+}
+.woocommerce-account article{
+    padding-top: 5vw;
+}
+.woocommerce form.login, .woocommerce form.register{
+    border: none;
+    padding: 0;
+}
+.woocommerce form .form-row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin-bottom: 15px;
+}
+.woocommerce form .form-row label{
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #000;
+}
+.woocommerce-form__label{
+    width: auto;
+}
+.password-input{
+    display: inline-block;
+}
+.woocommerce form .form-row input.input-text{
+    padding: 0 10px 10px;
+    border: none;
+    border-bottom: 2px solid;
+    border-color: #e4e6eb;
+    transition: all 150ms ease-in;
+    border-radius: 0;
+}
+.woocommerce form .form-row input.input-text:focus{
+    border-color: #000;
+}
+.woocommerce-form-login label + input, .woocommerce-form-login .password-input{
+    width: calc(100% - 280px) !important;
+    margin-left: auto !important;
+}
+.woocommerce-form-register label + input, .woocommerce-form-register .password-input{
+    width: calc(100% - 170px) !important;
+    margin-left: auto !important;
+}
+.woocommerce form .form-row label + input{
+    width: calc(100% - 230px);
+}
+.woocommerce form .show-password-input, .woocommerce-page form .show-password-input{
+    top: 0;
+}
+.lost_password{
+    text-align: right;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.lost_password a{
+    color: #000;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #000;
+}
+.woocommerce-privacy-policy-text{
+    margin-top: 10px;
+}
+.woocommerce-privacy-policy-text a{
+    color: #000;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.woocommerce-page .col2-set .col-1{
+    padding-right: 30px;
+}
+.woocommerce-page .col2-set .col-2{
+    padding-left: 30px;
+}
+.woocommerce .woocommerce-form-login .woocommerce-form-login__rememberme{
+    display: none;
+}
+.btn-black{
+    outline: none;
+    background-color: #000 !important;
+    border-radius: 0 !important;
+    font-weight: 500 !important;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px !important;
+    min-width: 200px  !important;
+    padding: 15px 30px !important;
+    color: #FFF  !important;
+    cursor: pointer;
+    border: 1px solid;
+    border-color: #000;
+    margin: 15px 0 0 auto !important;
+}
+.woocommerce-account .entry-content{
+    margin: 0;
+    position: relative;
+}
+.woocommerce-account .entry-content:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    height: 100%;
+    width: 2px;
+    background: #ededed;
+    top: 0;
+    transform: translateX(-50%);
+}

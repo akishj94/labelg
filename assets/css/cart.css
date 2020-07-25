@@ -1,0 +1,115 @@
+.woocommerce-cart article{
+    padding-top: 5vw;
+    width: 100%;
+}
+.woocommerce-cart .entry-content{
+    margin: 0;    
+}
+.woocommerce-cart .woocommerce{
+    display: flex;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+}
+.woocommerce-cart .woocommerce-cart-form {
+    width: 60%;
+}
+.woocommerce-cart .cart-collaterals{
+    width: 40%;
+}
+.woocommerce-cart table.cart th{
+    font-weight: 500;
+    padding: 0 15px 15px;
+    font-size: 14px;
+}
+.woocommerce table.shop_table{
+    border-radius: 0;
+    border: none;
+    margin: 0;
+}
+.woocommerce a.remove{
+    font-weight: 300;
+    color: #000 !important;
+    font-size: 30px;
+}
+.woocommerce table.shop_table td{
+    font-size: 13px;
+}
+.woocommerce-cart .woocommerce-notices-wrapper{
+    width: 100%;
+}
+.woocommerce-cart table.cart img{
+    width: 100px;
+    vertical-align: middle;
+}
+.woocommerce-cart table.cart .product-remove img{
+    width: 20px;
+    opacity: 0.8;
+    transition: 0.5s ease;
+}
+.woocommerce a.remove:hover{
+    background: none;
+}
+.woocommerce a.remove:hover img{
+    opacity: 1;
+}
+.woocommerce table.shop_table td.product-name a:nth-of-type(2){
+    color: #000;
+    font-weight: 500;
+    padding-left: 15px;
+}
+.woocommerce table.shop_table td{
+    border-top: 1px solid rgba(0,0,0,.05);
+}
+.woocommerce table.shop_table .qty{
+    padding: 10px 5px;
+}
+.woocommerce table.shop_table .coupon-row td{
+    padding: 30px 10px 0;
+    text-align: left;
+}
+.woocommerce table.shop_table .coupon-row div.coupon label{
+    width: auto;
+    display: inline-block;
+    float: none;
+    font-weight: 500;
+    margin: 0 30px 0 0;
+}
+.woocommerce table.shop_table .coupon-row div.coupon{
+    float: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    font-size: 14px;
+}
+.woocommerce table.shop_table .coupon-row div.coupon div{
+    width: 100%;
+    text-align: right;
+    margin-top: 50px;
+}
+.woocommerce table.shop_table .coupon-row div.coupon input[type="text"]{
+    flex: 1;
+    margin: 0 30px 0 0;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+    float: none;
+    padding: 0 10px 10px;
+}
+.woocommerce table.shop_table .coupon-row div.coupon input[type="text"]::placeholder{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+}
+.cart_totals h2{
+    margin: 0 0 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.cart_totals .shop_table{
+    font-size: 13px;
+}
+.woocommerce-cart .cart-collaterals .cart_totals {
+    width: 80%;
+    float: none;
+    margin-left: auto;
+}
